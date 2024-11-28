@@ -1,32 +1,61 @@
+# Invoice Management System
+
+An invoice management system built with **Django** for the backend and **React** for the frontend. This system allows users to manage invoices, create new invoices, and list the created invoices along with their details.
 
 ---
 
-### Key Sections Explained:
-1. **Overview**: A brief description of the project and its purpose.
-2. **Features**: A list of key features of the application.
-3. **Technologies Used**: Technologies and tools used in the project (e.g., Django, React).
-4. **Installation**: Detailed instructions on how to set up and run the project locally.
-5. **API Endpoints**: Example API endpoints and how to use them (optional, but helpful for API-based projects).
-6. **Contributing**: Guidelines for contributing to the project.
-7. **License**: If your project is open-source, mention the license it uses (e.g., MIT).
-8. **Acknowledgments**: Credit any libraries, frameworks, or people that helped with the project.
+## Table of Contents
+
+- [About](#about)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Installation](#installation)
+  - [Backend Setup](#backend-setup)
+  - [Frontend Setup](#frontend-setup)
+  - [Run the Application](#run-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-### How to Add the README to Your Repository
+## About
 
-1. **Create the README File**:
-   - In the root of your repository, create a file named `README.md`.
-   - Copy the template above into this file.
+The **Invoice Management System** is a web application that helps users create, view, and manage invoices. The backend is built with Django and Django REST Framework, while the frontend is built with React.
 
-2. **Commit the README File**:
-   - If you’ve created the `README.md` file locally, commit and push it to GitHub:
-     ```bash
-     git add README.md
-     git commit -m "Add README file"
-     git push origin master  # or git push origin main
-     ```
+This system supports multiple line items for each invoice and allows easy CRUD (Create, Read, Update, Delete) operations through REST APIs.
 
 ---
 
-Let me know if you need help adjusting the content or adding more specific sections!
+## Technologies
+
+- **Backend**: 
+  - Django
+  - Django REST Framework
+  - SQLite (default database)
+  - CORS headers for frontend communication
+- **Frontend**: 
+  - React.js
+  - Axios (for API requests)
+  - React Router (for routing)
+  
+---
+
+## Features
+
+- Create, read, update, and delete invoices.
+- Support for multiple line items in each invoice.
+- User-friendly interface built with React.
+- Backend powered by Django REST Framework with a simple API for invoices.
+- Secure CORS configuration to enable communication between the React frontend and Django backend.
+
+---
+
+## Installation
+
+### Backend Setup
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/invoice_management_system.git
+
