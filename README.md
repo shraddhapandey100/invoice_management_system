@@ -58,4 +58,9 @@ This system supports multiple line items for each invoice and allows easy CRUD (
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/invoice_management_system.git
+2. Navigate to the backend folder:
+   ```bash
+   cd invoice_management_system/backend
+
+
 
